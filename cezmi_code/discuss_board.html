@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Maple Hub - Fantasy Hockey</title>
+    <link rel="stylesheet" href="../styles/discus_board.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="shortcut icon" href="../images/faviconLEAFS.ico">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="../scripts/discussion.js"></script>
+</head>
+<body>
+    <header id="top">
+        <h1>The Maple Hub</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../lucas_code/schedule.html">Schedule</a>
+            <a href="../tim_code/roster.html">Roster</a>
+            <div class="dropdown">
+                <button class="dropbtn">Stats
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../tim_code/player_stats.html">Skater Stats</a>
+                    <a href="../tim_code/goalie_stats.html">Goalie Stats</a>
+                    <a href="../luiz_code/league_stats.html">League Stats</a>
+                    <a href="../cezmi_code/game_stats.html">Game Stats</a>
+                    <a href="../lucas_code/season_stats.html">Season Stats</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Media
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../luiz_code/social_media.html">Social Media</a>
+                    <a href="#">Video Highlights</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">News
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../cezmi_code/covid19.html">COVID-19 Updates</a>
+                    <a href="../tim_code/new.html">General News</a>
+                    <a href="../cezmi_code/injuries.html">Injuries</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Fan Zone
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../lucas_code/login.html">Log in</a>
+                    <a href="../cezmi_code/discuss_board.html">Discussion Board</a>
+                    <a href="../tim_code/trades.html">Fantasy Hockey</a>
+                    <a href="../luiz_code/become_member.html">Become a Member</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Semantic tag Main -->
+    <main id="disc">
+        <h1 >Discussion Board</h1>
+        <h3><a href="#">What do you think about the last game?</a></h3>
+        <div id="lgame">
+            <h4>Cezmi</h4>
+            <p>It was great...</p>
+            <h4>Luiz</h4>
+            <p>It seems fine...</p>
+
+        </div>
+        <h3><a href="#"></a><a href="#">What about the performance of the players at the last game?</a></h3>
+        <div id="pgame">
+            <h4>Tim</h4>
+            <p>Not satisfactory, They need to work hard</p>
+
+        </div>
+        <h3><a href="#"></a><a href="#">Rumors</a></h3>
+        <div id="rumor">
+            <h4>Lucas</h4>
+            <p>Maple leafs looking for a new palyer...</p>
+
+        </div> <br> <br>
+
+        <!-- Form to sign in or sign up to participate discussions -->
+
+        <form action="#">
+            <fieldset>
+                <legend>Sign in / Sign up</legend>
+                <p>In order to add comments, select one of the option<p>
+                <input type="button" value="Sign in" id="sin" onclick="signIn()">
+                <input type="button" value="Sign up" id="sup" onclick="members()">
+            </fieldset>
+        </form>
+        
+    </main>
+    <footer>
+        Copyright &copy; 2020 The Maple Hub<br />
+        <a href="mailto:tim.marshall.burns95@gmail.com" target="_blank">Tim@Burns.com</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The maple leaf's game stats" />
+    <meta name="keywords"
+        content="nhl, league stats, standings, Toronto Maple Leafs, Leafs, Maple Leafs, hockey, hockey team, Toronto sports, Toronto, game stats" />
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/table.css">
+    <link rel="stylesheet" href="../styles/subForm.css">
+    <link rel="shortcut icon" href="../images/faviconLEAFS.ico">
+    <title>The Maple Hub - Game Stats</title>
+</head>
+
+<body>
+    <!-- HEADER PART OF BODY -->
+        <header>
+            <h1>The Maple Hub</h1>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="../lucas_code/schedule.html">Schedule</a>
+                <a href="../tim_code/roster.html">Roster</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Stats
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../tim_code/player_stats.html">Skater Stats</a>
+                        <a href="../tim_code/goalie_stats.html">Goalie Stats</a>
+                        <a href="../luiz_code/league_stats.html">League Stats</a>
+                        <a href="../cezmi_code/game_stats.html">Game Stats</a>
+                        <a href="../lucas_code/season.html">Season Stats</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Media
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../luiz_code/social_media.html">Social Media</a>
+                        <a href="#">Video Highlights</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">News
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../cezmi_code/covid19.html">COVID-19 Updates</a>
+                        <a href="../tim_code/new.html">General News</a>
+                        <a href="../cezmi_code/injuries.html">Injuries</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Fan Zone
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../lucas_code/login.html">Log in</a>
+                        <a href="../cezmi_code/discuss_board.html">Discussion Board</a>
+                        <a href="../tim_code/trades.html">Fantasy Hockey</a>
+                        <a href="../luiz_code/become_member.html">Become a Member</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- MAIN PART OF BODY -->
+        <main>
+
+            <!-- CREATE A NEW TABLE -->
+            <table>
+                <caption style="margin-bottom: 3px ; text-align: left; font-size: 1.5em; ">Games Statistics</caption>
+                <!-- CREATE HEADER OF TABLE -->
+                <thead>
+                    <tr>
+                        <th scope="col" id="date" title="Date">Date</th>
+                        <th scope="col" id="hr" title="Home/Road">H/R</th>
+                        <th scope="col" id="opp" title="Opponent">Opp</th>
+                        <th scope="col" id="gofor" title="Goals for">GF</th>
+                        <th scope="col" id="goag" title="Goals Against">GA</th>
+                        <th scope="col" id="wgoal" title="Winning Goaltender">W Golie</th>
+                        <th scope="col" id="wgosc" title="Winning Goal Scorer">W Goal</th>
+                    </tr>
+                </thead>
+                <!-- CREATE BODY OF TABLE -->
+                <tbody>
+                    <tr>
+                        <td headers="date">2020/03/10</td>
+                        <td headers="hr">H</td>
+                        <td headers="opp">TBL</td>
+                        <td headers="gofor">2</td>
+                        <td headers="goag">1</td>
+                        <td headers="wgoal">F. Andersen</td>
+                        <td headers="wgosc">A. Matthews</td>
+                    </tr>
+                    <tr>
+                        <td headers="date">2020/03/06</td>
+                        <td headers="hr">R</td>
+                        <td headers="opp">ANA</td>
+                        <td headers="gofor">1</td>
+                        <td headers="goag">2</td>
+                        <td headers="wgoal">J. Gibson</td>
+                        <td headers="wgosc">A. Henrique</td>
+                    </tr>
+                    <tr>
+                        <td headers="date">2020/03/05</td>
+                        <td headers="hr">R</td>
+                        <td headers="opp">LAK</td>
+                        <td headers="gofor">0</td>
+                        <td headers="goag">0</td>
+                        <td headers="wgoal">J. Quick</td>
+                        <td headers="wgosc">A. Kempe</td>
+                    </tr>
+                    <tr>
+                        <td headers="date">2020/03/03</td>
+                        <td headers="hr">R</td>
+                        <td headers="opp">SJS</td>
+                        <td headers="gofor">2</td>
+                        <td headers="goag">5</td>
+                        <td headers="wgoal">M. Jones</td>
+                        <td headers="wgosc">S. Noesen</td>
+                    </tr>
+                    <tr>
+                        <td headers="date">2020/02/29</td>
+                        <td headers="hr">H</td>
+                        <td headers="opp">VAN</td>
+                        <td headers="gofor">4</td>
+                        <td headers="goag">2</td>
+                        <td headers="wgoal">F. Andersen</td>
+                        <td headers="wgosc">M. Marincin</td>
+                    </tr>
+                    <tr>
+                        <td headers="date">2020/02/27</td>
+                        <td headers="hr">R</td>
+                        <td headers="opp">FLA</td>
+                        <td headers="gofor">5</td>
+                        <td headers="goag">3</td>
+                        <td headers="wgoal">F. Andersen</td>
+                        <td headers="wgosc">W. Nylander</td>
+                    </tr>
+                    <tr>
+                        <td headers="date">2020/02/25</td>
+                        <td headers="hr">R</td>
+                        <td headers="opp">TBL</td>
+                        <td headers="gofor">4</td>
+                        <td headers="goag">2</td>
+                        <td headers="wgoal">F. Andersen</td>
+                        <td headers="wgosc">W. Nylander</td>
+                    </tr>
+                    <tr>
+                        <td headers="date">2020/02/22</td>
+                        <td headers="hr">H</td>
+                        <td headers="opp">CAR</td>
+                        <td headers="gofor">3</td>
+                        <td headers="goag">6</td>
+                        <td headers="wgoal">D. Ayres</td>
+                        <td headers="wgosc">T. Teravainen</td>
+                    </tr>
+                    <tr>
+                        <td headers="date">2020/02/20</td>
+                        <td headers="hr">H</td>
+                        <td headers="opp">PIT</td>
+                        <td headers="gofor">4</td>
+                        <td headers="goag">0</td>
+                        <td headers="wgoal">F. Andersen</td>
+                        <td headers="wgosc">J. Muzzin</td>
+                    </tr> 
+                    <tr>
+                        <td headers="date">2020/02/18</td>
+                        <td headers="hr">R</td>
+                        <td headers="opp">PIT</td>
+                        <td headers="gofor">2</td>
+                        <td headers="goag">5</td>
+                        <td headers="wgoal">T. Jarry</td>
+                        <td headers="wgosc">J. Zucker</td>
+                    </tr>
+                    <tr>
+                        <td headers="date">2020/02/16</td>
+                        <td headers="hr">R</td>
+                        <td headers="opp">BUF</td>
+                        <td headers="gofor">2</td>
+                        <td headers="goag">5</td>
+                        <td headers="wgoal">C. Hutton</td>
+                        <td headers="wgosc">J. Eichel</td>
+                    </tr>
+
+                </tbody>
+            </table><br>
+          
+        </main>
+        <!-- FOOTER PART OF BODY -->
+        <footer>
+            Copyright &copy; 2020 The Maple Hub<br />
+            <a href="mailto:email@humbermail.ca" target="_blank">email@email.com</a>
+        </footer>
+        <script src="../scripts/form.js"></script>
+</body>
+
+</html>
